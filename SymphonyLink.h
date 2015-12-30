@@ -3,14 +3,13 @@
 
 #define IFC_VERSION_MAJOR (0)
 #define IFC_VERSION_MINOR (3)
-#define IFC_VERSION_TAG (1)
+#define IFC_VERSION_TAG   (2)
 
-#define APP_TOKEN_LEN (10)
-#define MAX_RX_MSG_LEN (128)
+#define APP_TOKEN_LEN     (10)
+#define MAX_RX_MSG_LEN    (128)
 
 #define VERSION_LEN                 (4)
 #define FIRMWARE_TYPE_LEN           (4)
-
 
 #define LL_IFC_ACK                          (0)   // All good.
 #define LL_IFC_NACK_CMD_NOT_SUPPORTED       (1)   // Command not supported.
@@ -47,19 +46,16 @@
 #define IRQ_FLAGS_RX_DONE                     (0x00000100UL)  // Set every time a new packet is received
 #define IRQ_FLAGS_CONNECTED                   (0x00001000UL)  // Set every time we transition from the disconnected -> connected state
 #define IRQ_FLAGS_DISCONNECTED                (0x00002000UL)  // Set every time we transition from the connected -> disconnected state
-#define IRQ_FLAGS_ENROLL_GRANT                (0x00004000UL)  // Set when the module has been granted an enrollment by the gateway
 #define IRQ_FLAGS_CRYPTO_ESTABLISHED          (0x00010000UL)  // Set every time we transition from the crypto not established -> crytpto established state
 #define IRQ_FLAGS_APP_TOKEN_CONFIRMED         (0x00020000UL)  // Set every time an application token is confirmed by Conductor
 #define IRQ_FLAGS_DOWNLINK_REQUEST_ACK        (0x00040000UL)  // (NOT IMPLEMENTED) Set every time a downlink registration request is acknowledged
 #define IRQ_FLAGS_CRYPTO_ERROR                (0x00100000UL)  // Set when a crypto exchange attempt fails
 #define IRQ_FLAGS_APP_TOKEN_ERROR             (0x00200000UL)  // Set when an application token registration fails
-#define IRQ_FLAGS_STATUS_REQ                  (0x00400000UL)  // Set when we want to request the status of the host controller
-#define IRQ_FLAGS_FIRMWARE_REQ                (0x00800000UL)  // Set when we want to request the firmware data of the host controller
 #define IRQ_FLAGS_ASSERT                      (0x80000000UL)  // Set every time we transition from the connected->disconnected state
 
-#define NET_INFO_BUFF_SIZE (30)
-#define DL_BAND_CFG_SIZE (3 * 4 + 2)
-#define STATS_SIZE (10 * 4)
+#define NET_INFO_BUFF_SIZE      (30)
+#define DL_BAND_CFG_SIZE        (3 * 4 + 2)
+#define STATS_SIZE              (10 * 4)
 
 #ifndef PACKED
         #define PACKED
@@ -71,21 +67,14 @@
 #define CMD_HEADER_LEN      (5)
 #define RESP_HEADER_LEN     (6)
 
-
-
-
-
-
-typedef enum
-{
+typedef enum {
     LLABS_CONNECT_INITIAL = 0,
     LLABS_CONNECT_DISCONNECTED,
     LLABS_CONNECT_CONNECTED,
     LLABS_NUM_CONNECT_STATUSES
 } llabs_connect_status_t;
 
-typedef struct PACKED llabs_network_info_t
-{
+typedef struct PACKED llabs_network_info_t {
     uint32_t network_id_node;
     uint32_t network_id_gw;
     int8_t gateway_channel;
@@ -99,8 +88,7 @@ typedef struct PACKED llabs_network_info_t
 } llabs_network_info_t;
 
 // Defines the band-specific frequency parameters (FCC 902-928, etc...)
-typedef struct PACKED llabs_dl_band_cfg
-{
+typedef struct PACKED llabs_dl_band_cfg {
     uint32_t band_edge_lower;
     uint32_t band_edge_upper;
     uint32_t band_edge_guard;
@@ -108,8 +96,7 @@ typedef struct PACKED llabs_dl_band_cfg
     uint8_t chan_step_offset;
 } llabs_dl_band_cfg_t;
 
-typedef struct llabs_stats
-{
+typedef struct llabs_stats {
     uint32_t num_send_calls;            // Number of times SendMessage has been called successfully
     uint32_t num_pkts_transmitted;      // Number of packet transmissions (includes retries)
     uint32_t num_gateway_scans;         // Number of gateway scans
@@ -122,8 +109,7 @@ typedef struct llabs_stats
     uint32_t num_rx_errors;             // Number of times we received a Rx error from the back end
 } llabs_stats_t;
 
-typedef enum
-{
+typedef enum {
     OP_VERSION = 0,                 // 0x00
     OP_IFC_VERSION = 1,             // 0x01
     OP_STATE = 2,                   // 0x02
@@ -179,13 +165,11 @@ typedef enum
     OP_FIRMWARE_TYPE = 255          // 0xFF
 } opcode_t;
 
-typedef enum
-{
+typedef enum {
     FRAME_START = 0xC4
 } frame_t;
 
-typedef enum
-{
+typedef enum {
     LORA_NO_MAC = 0,
     LORAWAN_EU,
     LORAWAN_FCC,
@@ -195,8 +179,7 @@ typedef enum
 } ll_mac_type_t;
 
 // Hardware Types
-typedef enum
-{
+typedef enum {
     UNAVAILABLE    = 0,             // 0x00
     LLRLP20_V2     = 1,             // 0x01
     LLRXR26_V2     = 2,             // 0x02
@@ -207,16 +190,14 @@ typedef enum
 /**
  * Firmware identifiers
  */
-typedef enum
-{
+typedef enum {
     CPU_EFM32TG210F32 = 0,          // 0x00
     CPU_EFM32G210F128 = 1,          // 0x01
     CPU_R5F51115ADNE  = 2,          // 0x02
     CPU_R5F51116ADNE  = 3,          // 0x03
 } cpu_code_t;
 
-typedef enum
-{
+typedef enum {
     GATEWAY_TX_ONLY = 0,            // 0x00
     MODULE_END_NODE = 1             // 0x01
     // TBD - How to define others ?
@@ -226,13 +207,14 @@ typedef struct {
     uint16_t cpu_code;
     uint16_t functionality_code;
 } ll_firmware_type_t;
+
 typedef struct {
     uint8_t major;
     uint8_t minor;
     uint16_t tag;
 } ll_version_t;
-typedef enum
-{
+
+typedef enum {
     DOWNLINK_MODE_OFF = 0,          // 0x00
     DOWNLINK_MODE_ALWAYS_ON = 1,    // 0x01
     DOWNLINK_MODE_MAILBOX = 2,      // 0x02
@@ -352,11 +334,4 @@ int32_t ll_packet_send_ack(uint8_t buf[], uint16_t len);
 int32_t ll_packet_send_unack(uint8_t buf[], uint16_t len);
 int32_t ll_transmit_cw(void);
 
-
-
-
-
-
-
-  
 #endif
