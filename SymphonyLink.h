@@ -1,6 +1,8 @@
 #ifndef SYMPHONY_H
 #define SYMPHONY_H
 
+#include "arduino.h"
+
 #define IFC_VERSION_MAJOR (0)
 #define IFC_VERSION_MINOR (3)
 #define IFC_VERSION_TAG   (2)
