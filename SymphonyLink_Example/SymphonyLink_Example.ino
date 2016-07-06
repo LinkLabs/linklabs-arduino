@@ -20,10 +20,10 @@ void setup()
 
   //Configure the following to match your network and application tokens
   //Set desired network token 
-  uint32_t netToken = 0x18ae3821; //The OPEN network token is 0x4f50454e.
+  uint32_t netToken = 0xXXXXXXXX;  //Insert your network token. For example, the OPEN network token is 0x4f50454e.
                                    //A module can only talk to gateways using the same network token.
   //Set desired application token
-  uint8_t appToken[APP_TOKEN_LEN] = {0xf3,0x9e,0x7f,0x5d,0x39,0x56,0x2b,0x5e,0xdb,0xae}; //Generate new application tokens in your Conductor account.
+  uint8_t appToken[APP_TOKEN_LEN] = {0xXX,0xXX,0xXX,0xXX,0xXX,0xXX,0xXX,0xXX,0xXX,0xXX}; //Generate an application token in your Conductor account use it here.
                                                                                           //The application token identifies this dataflow in Conductor.
   
   //Initialize the SymphonyLink object and open UART communications with the module on Serial1.
