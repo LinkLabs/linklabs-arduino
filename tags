@@ -1,0 +1,525 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APP_TOKEN_LEN	ll_ifc_consts.h	/^#define APP_TOKEN_LEN /;"	d
+AntennaMode	SymphonyLink.h	/^enum AntennaMode$/;"	g
+CMD_HEADER_LEN	ll_ifc.c	/^#define CMD_HEADER_LEN /;"	d	file:
+CONNECTING	SymphonyLink.h	/^    CONNECTING,$/;"	e	enum:modemState
+CPU_EFM32G210F128	ll_ifc_consts.h	/^    CPU_EFM32G210F128 = 1,          \/\/ 0x01$/;"	e	enum:__anon7
+CPU_EFM32TG210F32	ll_ifc_consts.h	/^    CPU_EFM32TG210F32 = 0,          \/\/ 0x00$/;"	e	enum:__anon7
+CPU_R5F51115ADNE	ll_ifc_consts.h	/^    CPU_R5F51115ADNE  = 2,          \/\/ 0x02$/;"	e	enum:__anon7
+CPU_R5F51116ADNE	ll_ifc_consts.h	/^    CPU_R5F51116ADNE  = 3,          \/\/ 0x03$/;"	e	enum:__anon7
+DL_BAND_CFG_SIZE	ifc_struct_defs.h	/^#define DL_BAND_CFG_SIZE /;"	d
+DOWNLINK_MODE_ALWAYS_ON	ll_ifc_consts.h	/^    DOWNLINK_MODE_ALWAYS_ON = 1,    \/\/ 0x01$/;"	e	enum:__anon13
+DOWNLINK_MODE_FAILURE	ll_ifc_consts.h	/^    DOWNLINK_MODE_FAILURE = 255,    \/\/ 0xFF$/;"	e	enum:__anon13
+DOWNLINK_MODE_MAILBOX	ll_ifc_consts.h	/^    DOWNLINK_MODE_MAILBOX = 2,      \/\/ 0x02$/;"	e	enum:__anon13
+DOWNLINK_MODE_OFF	ll_ifc_consts.h	/^    DOWNLINK_MODE_OFF = 0,          \/\/ 0x00$/;"	e	enum:__anon13
+DOWNLINK_MODE_PERIODIC	ll_ifc_consts.h	/^    DOWNLINK_MODE_PERIODIC = 3,     \/\/ 0x03$/;"	e	enum:__anon13
+DemodMargin	ll_ifc_lorawan.h	/^        uint8_t DemodMargin;$/;"	m	struct:ll_lorawan_rx_s
+DownlinkMode	SymphonyLink.h	/^enum DownlinkMode$/;"	g
+ENSEMBLE_AES_KEY_LENGTH	ll_ifc_ensemble.h	/^#define ENSEMBLE_AES_KEY_LENGTH /;"	d
+ENSEMBLE_DBG_BUFFER_SIZE	ll_ifc_ensemble.h	/^#define ENSEMBLE_DBG_BUFFER_SIZE /;"	d
+ENSEMBLE_MSG_ROUTED_VIA_REPEATER	ll_ifc_ensemble.h	/^    ENSEMBLE_MSG_ROUTED_VIA_REPEATER = 0x8000,           \/\/ if set (bit 15), then msg was inbound from a repeater$/;"	e	enum:__anon16
+ENSEMBLE_PROP_BW	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_BW                   = 1,    \/\/ Enumerated Bandwidth         : type uint32_t (enumeration: property_bw_t)$/;"	e	enum:__anon15
+ENSEMBLE_PROP_CR	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_CR                   = 3,	\/\/ Enumerated Coding Rate       : type uint32_t (enumeration: property_cr_t)$/;"	e	enum:__anon15
+ENSEMBLE_PROP_FREQUENCY	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_FREQUENCY            = 0,    \/\/ Frequency                    : type uint32_t$/;"	e	enum:__anon15
+ENSEMBLE_PROP_GATEWAY_MAX_MSG_CNT	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_GATEWAY_MAX_MSG_CNT  = 9,    \/\/ Max msgs buffered in a gateway:              type uint32_t$/;"	e	enum:__anon15
+ENSEMBLE_PROP_MAIL_ACK_DELAY	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_MAIL_ACK_DELAY       = 12,   \/\/ acknowledge time delay (in gateway module) waiting for Mail from Host before ACK is sent$/;"	e	enum:__anon15
+ENSEMBLE_PROP_MAX	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_MAX$/;"	e	enum:__anon15
+ENSEMBLE_PROP_MAX_PAYLOAD_SIZE	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_MAX_PAYLOAD_SIZE     = 8,    \/\/ Max app payload size \/ msg   : type uint32_t$/;"	e	enum:__anon15
+ENSEMBLE_PROP_MAX_TX_ATTEMPTS	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_MAX_TX_ATTEMPTS      = 7,    \/\/ Max Tx attempts per msg      : type uint32_t$/;"	e	enum:__anon15
+ENSEMBLE_PROP_MSG_AVAIL_NOTIFY_MODE	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_MSG_AVAIL_NOTIFY_MODE  = 11, \/\/ Notify method when Gateway has msgs available: type uint32_t$/;"	e	enum:__anon15
+ENSEMBLE_PROP_MSG_TRAFFIC_KEY	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_MSG_TRAFFIC_KEY      = 14,   \/\/ AES encryption key (AES128)  : type 16 byte array of uint8_t's$/;"	e	enum:__anon15
+ENSEMBLE_PROP_NODE_ROLE	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_NODE_ROLE            = 4,	\/\/ Enumerated Role for module   : type uint32_t (enumeration: ensemble_role_t)$/;"	e	enum:__anon15
+ENSEMBLE_PROP_PREAMBLE_LENGTH	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_PREAMBLE_LENGTH      = 6,    \/\/ Message preamble length (symbols) : type uint32_t$/;"	e	enum:__anon15
+ENSEMBLE_PROP_REPEATER_AVAILABLE	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_REPEATER_AVAILABLE   = 13,   \/\/ Repeater available for use by EP:            type uint32_t$/;"	e	enum:__anon15
+ENSEMBLE_PROP_SF	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_SF                   = 2,	\/\/ Enumerated Spreading factor  : type uint32_t (enumeration: property_sf_t)$/;"	e	enum:__anon15
+ENSEMBLE_PROP_TX_FAIL_RETRY_DELAY	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_TX_FAIL_RETRY_DELAY  = 10,   \/\/ Delay between Tx attempts on error (sec):    type uint32_t$/;"	e	enum:__anon15
+ENSEMBLE_PROP_TX_POWER	ll_ifc_ensemble.h	/^    ENSEMBLE_PROP_TX_POWER             = 5,    \/\/ Module Tx power (dBm)        : type uint32_t$/;"	e	enum:__anon15
+ENSEMBLE_ROLE_ENDPOINT	ll_ifc_ensemble.h	/^    ENSEMBLE_ROLE_ENDPOINT = 0,				\/\/ Node assigend as endpoint$/;"	e	enum:__anon14
+ENSEMBLE_ROLE_GATEWAY	ll_ifc_ensemble.h	/^    ENSEMBLE_ROLE_GATEWAY  = 1,				\/\/ Node assigned as gateway$/;"	e	enum:__anon14
+ENSEMBLE_ROLE_MAX	ll_ifc_ensemble.h	/^    ENSEMBLE_ROLE_MAX$/;"	e	enum:__anon14
+ENSEMBLE_ROLE_REPEATER	ll_ifc_ensemble.h	/^    ENSEMBLE_ROLE_REPEATER = 2,				\/\/ Node assigned as repeater$/;"	e	enum:__anon14
+ENSEMBLE_SERIALIZED_OFFSET_MSGINFO	ll_ifc_ensemble.h	/^#define ENSEMBLE_SERIALIZED_OFFSET_MSGINFO /;"	d
+ENSEMBLE_SERIALIZED_OFFSET_MUI	ll_ifc_ensemble.h	/^#define ENSEMBLE_SERIALIZED_OFFSET_MUI /;"	d
+ENSEMBLE_SERIALIZED_OFFSET_RSSI	ll_ifc_ensemble.h	/^#define ENSEMBLE_SERIALIZED_OFFSET_RSSI /;"	d
+ENSEMBLE_SERIALIZED_OFFSET_TO_PAYLOAD	ll_ifc_ensemble.h	/^#define ENSEMBLE_SERIALIZED_OFFSET_TO_PAYLOAD /;"	d
+ENSEMBLE_SERIALIZED_OFFSET_UTCTIME	ll_ifc_ensemble.h	/^#define ENSEMBLE_SERIALIZED_OFFSET_UTCTIME /;"	d
+FIRMWARE_TYPE_LEN	ll_ifc_consts.h	/^#define FIRMWARE_TYPE_LEN /;"	d
+FRAME_START	ll_ifc_consts.h	/^    FRAME_START = 0xC4$/;"	e	enum:__anon3
+GATEWAY_TX_ONLY	ll_ifc_consts.h	/^    GATEWAY_TX_ONLY = 0,            \/\/ 0x00$/;"	e	enum:__anon8
+IFC_VERSION_MAJOR	ll_ifc_consts.h	/^#define IFC_VERSION_MAJOR /;"	d
+IFC_VERSION_MINOR	ll_ifc_consts.h	/^#define IFC_VERSION_MINOR /;"	d
+IFC_VERSION_TAG	ll_ifc_consts.h	/^#define IFC_VERSION_TAG /;"	d
+INIT	SymphonyLink.h	/^    INIT=0,$/;"	e	enum:modemState
+IRQ_FLAGS_ACK_RECEIVED	ll_ifc_consts.h	/^#define IRQ_FLAGS_ACK_RECEIVED /;"	d
+IRQ_FLAGS_APP_TOKEN_CONFIRMED	ll_ifc_consts.h	/^#define IRQ_FLAGS_APP_TOKEN_CONFIRMED /;"	d
+IRQ_FLAGS_APP_TOKEN_ERROR	ll_ifc_consts.h	/^#define IRQ_FLAGS_APP_TOKEN_ERROR /;"	d
+IRQ_FLAGS_ASSERT	ll_ifc_consts.h	/^#define IRQ_FLAGS_ASSERT /;"	d
+IRQ_FLAGS_CONNECTED	ll_ifc_consts.h	/^#define IRQ_FLAGS_CONNECTED /;"	d
+IRQ_FLAGS_CRYPTO_ERROR	ll_ifc_consts.h	/^#define IRQ_FLAGS_CRYPTO_ERROR /;"	d
+IRQ_FLAGS_CRYPTO_ESTABLISHED	ll_ifc_consts.h	/^#define IRQ_FLAGS_CRYPTO_ESTABLISHED /;"	d
+IRQ_FLAGS_DISCONNECTED	ll_ifc_consts.h	/^#define IRQ_FLAGS_DISCONNECTED /;"	d
+IRQ_FLAGS_DOWNLINK_REQUEST_ACK	ll_ifc_consts.h	/^#define IRQ_FLAGS_DOWNLINK_REQUEST_ACK /;"	d
+IRQ_FLAGS_INITIALIZATION_COMPLETE	ll_ifc_consts.h	/^#define IRQ_FLAGS_INITIALIZATION_COMPLETE /;"	d
+IRQ_FLAGS_RESET	ll_ifc_consts.h	/^#define IRQ_FLAGS_RESET /;"	d
+IRQ_FLAGS_RX_DONE	ll_ifc_consts.h	/^#define IRQ_FLAGS_RX_DONE /;"	d
+IRQ_FLAGS_TX_DONE	ll_ifc_consts.h	/^#define IRQ_FLAGS_TX_DONE /;"	d
+IRQ_FLAGS_TX_ERROR	ll_ifc_consts.h	/^#define IRQ_FLAGS_TX_ERROR /;"	d
+IRQ_FLAGS_WDOG_RESET	ll_ifc_consts.h	/^#define IRQ_FLAGS_WDOG_RESET /;"	d
+LINK_INIT	SymphonyLink.h	/^	LINK_INIT,$/;"	e	enum:modemState
+LLABS_CONNECT_CONNECTED	ifc_struct_defs.h	/^    LLABS_CONNECT_CONNECTED,$/;"	e	enum:__anon1
+LLABS_CONNECT_DISCONNECTED	ifc_struct_defs.h	/^    LLABS_CONNECT_DISCONNECTED,$/;"	e	enum:__anon1
+LLABS_CONNECT_INITIAL	ifc_struct_defs.h	/^    LLABS_CONNECT_INITIAL = 0,$/;"	e	enum:__anon1
+LLABS_NUM_CONNECT_STATUSES	ifc_struct_defs.h	/^    LLABS_NUM_CONNECT_STATUSES$/;"	e	enum:__anon1
+LLRLP20_V2	ll_ifc_consts.h	/^    LLRLP20_V2     = 1,             \/\/ 0x01$/;"	e	enum:__anon6
+LLRLP20_V3	ll_ifc_consts.h	/^    LLRLP20_V3     = 3,             \/\/ 0x03$/;"	e	enum:__anon6
+LLRXR26_V2	ll_ifc_consts.h	/^    LLRXR26_V2     = 2,             \/\/ 0x02$/;"	e	enum:__anon6
+LLRXR26_V3	ll_ifc_consts.h	/^    LLRXR26_V3     = 4,             \/\/ 0x04$/;"	e	enum:__anon6
+LL_ARG_CHECK	ll_ifc_lorawan.h	/^#define LL_ARG_CHECK(/;"	d
+LL_DL_ALWAYS_ON	ll_ifc_symphony.h	/^    LL_DL_ALWAYS_ON = 1,$/;"	e	enum:ll_downlink_mode
+LL_DL_MAILBOX	ll_ifc_symphony.h	/^    LL_DL_MAILBOX = 2,$/;"	e	enum:ll_downlink_mode
+LL_DL_OFF	ll_ifc_symphony.h	/^    LL_DL_OFF = 0,$/;"	e	enum:ll_downlink_mode
+LL_IFC_ACK	ll_ifc_consts.h	/^#define LL_IFC_ACK /;"	d
+LL_IFC_ERROR_BUFFER_TOO_SMALL	ll_ifc_consts.h	/^    LL_IFC_ERROR_BUFFER_TOO_SMALL           = -107, \/\/< Response larger than provided output buffer$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_ERROR_CHECKSUM_MISMATCH	ll_ifc_consts.h	/^    LL_IFC_ERROR_CHECKSUM_MISMATCH          = -104, \/\/< Checksum mismatch$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_ERROR_COMMAND_MISMATCH	ll_ifc_consts.h	/^    LL_IFC_ERROR_COMMAND_MISMATCH           = -105, \/\/< Command mismatch (responding to a different command)$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_ERROR_HEADER	ll_ifc_consts.h	/^    LL_IFC_ERROR_HEADER                     = -109, \/\/< transport_read failed getting header$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_ERROR_HOST_INTERFACE_TIMEOUT	ll_ifc_consts.h	/^    LL_IFC_ERROR_HOST_INTERFACE_TIMEOUT     = -106, \/\/< Timed out waiting for Rx bytes from interface$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_ERROR_INCORRECT_MESSAGE_SIZE	ll_ifc_consts.h	/^    LL_IFC_ERROR_INCORRECT_MESSAGE_SIZE     = -111, \/\/< The message size from the device was incorrect.$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_ERROR_INCORRECT_PARAMETER	ll_ifc_consts.h	/^    LL_IFC_ERROR_INCORRECT_PARAMETER        = -101, \/\/< The parameter value was invalid.$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_ERROR_INCORRECT_RESPONSE_LENGTH	ll_ifc_consts.h	/^    LL_IFC_ERROR_INCORRECT_RESPONSE_LENGTH  = -102, \/\/< Module response was not the expected size.$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_ERROR_MESSAGE_NUMBER_MISMATCH	ll_ifc_consts.h	/^    LL_IFC_ERROR_MESSAGE_NUMBER_MISMATCH    = -103, \/\/< Message number in response doesn't match expected$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_ERROR_NO_NETWORK	ll_ifc_consts.h	/^    LL_IFC_ERROR_NO_NETWORK                 = -112, \/\/< No network was available.$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_ERROR_START_OF_FRAME	ll_ifc_consts.h	/^    LL_IFC_ERROR_START_OF_FRAME             = -108, \/\/< transport_read failed getting FRAME_START$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_ERROR_TIMEOUT	ll_ifc_consts.h	/^    LL_IFC_ERROR_TIMEOUT                    = -110, \/\/< The operation timed out.$/;"	e	enum:ll_ifc_error_codes_e
+LL_IFC_NACK_APP_TOKEN_REG	ll_ifc_consts.h	/^#define LL_IFC_NACK_APP_TOKEN_REG /;"	d
+LL_IFC_NACK_BOOTUP_IN_PROGRESS	ll_ifc_consts.h	/^#define LL_IFC_NACK_BOOTUP_IN_PROGRESS /;"	d
+LL_IFC_NACK_BUSY_TRY_AGAIN	ll_ifc_consts.h	/^#define LL_IFC_NACK_BUSY_TRY_AGAIN /;"	d
+LL_IFC_NACK_CMD_NOT_SUPPORTED	ll_ifc_consts.h	/^#define LL_IFC_NACK_CMD_NOT_SUPPORTED /;"	d
+LL_IFC_NACK_INCORRECT_CHKSUM	ll_ifc_consts.h	/^#define LL_IFC_NACK_INCORRECT_CHKSUM /;"	d
+LL_IFC_NACK_NODATA	ll_ifc_consts.h	/^#define LL_IFC_NACK_NODATA /;"	d
+LL_IFC_NACK_NOT_IN_MAILBOX_MODE	ll_ifc_consts.h	/^#define LL_IFC_NACK_NOT_IN_MAILBOX_MODE /;"	d
+LL_IFC_NACK_OTHER	ll_ifc_consts.h	/^#define LL_IFC_NACK_OTHER /;"	d
+LL_IFC_NACK_PAYLOAD_BAD_PROPERTY	ll_ifc_consts.h	/^#define LL_IFC_NACK_PAYLOAD_BAD_PROPERTY /;"	d
+LL_IFC_NACK_PAYLOAD_LEN_EXCEEDED	ll_ifc_consts.h	/^#define LL_IFC_NACK_PAYLOAD_LEN_EXCEEDED /;"	d
+LL_IFC_NACK_PAYLOAD_LEN_OOR	ll_ifc_consts.h	/^#define LL_IFC_NACK_PAYLOAD_LEN_OOR /;"	d
+LL_IFC_NACK_PAYLOAD_OOR	ll_ifc_consts.h	/^#define LL_IFC_NACK_PAYLOAD_OOR /;"	d
+LL_IFC_NACK_QUEUE_FULL	ll_ifc_consts.h	/^#define LL_IFC_NACK_QUEUE_FULL /;"	d
+LL_LORAWAN_ACTIVATE_TIMEOUT_S	ll_ifc_lorawan.c	/^#define LL_LORAWAN_ACTIVATE_TIMEOUT_S /;"	d	file:
+LL_LORAWAN_ACTIVATION_OVER_THE_AIR	ll_ifc_consts.h	/^    LL_LORAWAN_ACTIVATION_OVER_THE_AIR = 0,$/;"	e	enum:ll_lorawan_activation_e
+LL_LORAWAN_ACTIVATION_PERSONALIZATION	ll_ifc_consts.h	/^    LL_LORAWAN_ACTIVATION_PERSONALIZATION = 1,$/;"	e	enum:ll_lorawan_activation_e
+LL_LORAWAN_ACTIVATION_QUERY	ll_ifc_consts.h	/^    LL_LORAWAN_ACTIVATION_QUERY = 2$/;"	e	enum:ll_lorawan_activation_e
+LL_LORAWAN_ACTIVATION_STATUS_COMPLETED	ll_ifc_consts.h	/^    LL_LORAWAN_ACTIVATION_STATUS_COMPLETED = 0,$/;"	e	enum:ll_lorawan_activation_status_e
+LL_LORAWAN_ACTIVATION_STATUS_FAILED	ll_ifc_consts.h	/^    LL_LORAWAN_ACTIVATION_STATUS_FAILED = 2,$/;"	e	enum:ll_lorawan_activation_status_e
+LL_LORAWAN_ACTIVATION_STATUS_PENDING	ll_ifc_consts.h	/^    LL_LORAWAN_ACTIVATION_STATUS_PENDING = 1,$/;"	e	enum:ll_lorawan_activation_status_e
+LL_LORAWAN_CLASS_A	ll_ifc_consts.h	/^    LL_LORAWAN_CLASS_A = 0,$/;"	e	enum:ll_lorawan_device_class_e
+LL_LORAWAN_CLASS_B	ll_ifc_consts.h	/^    LL_LORAWAN_CLASS_B = 1,$/;"	e	enum:ll_lorawan_device_class_e
+LL_LORAWAN_CLASS_C	ll_ifc_consts.h	/^    LL_LORAWAN_CLASS_C = 2,$/;"	e	enum:ll_lorawan_device_class_e
+LL_LORAWAN_PARAM_ADAPTIVE_DATA_RATE_ENABLED	ll_ifc_consts.h	/^    LL_LORAWAN_PARAM_ADAPTIVE_DATA_RATE_ENABLED,$/;"	e	enum:ll_lorawan_param_e
+LL_LORAWAN_PARAM_DEVICE_CLASS	ll_ifc_consts.h	/^    LL_LORAWAN_PARAM_DEVICE_CLASS,$/;"	e	enum:ll_lorawan_param_e
+LL_LORAWAN_PARAM_DOWNLINK_COUNTER	ll_ifc_consts.h	/^    LL_LORAWAN_PARAM_DOWNLINK_COUNTER,$/;"	e	enum:ll_lorawan_param_e
+LL_LORAWAN_PARAM_NETWORK_ACTIVATION_STATUS	ll_ifc_consts.h	/^    LL_LORAWAN_PARAM_NETWORK_ACTIVATION_STATUS,$/;"	e	enum:ll_lorawan_param_e
+LL_LORAWAN_PARAM_NETWORK_TYPE	ll_ifc_consts.h	/^    LL_LORAWAN_PARAM_NETWORK_TYPE,$/;"	e	enum:ll_lorawan_param_e
+LL_LORAWAN_PARAM_UPLINK_COUNTER	ll_ifc_consts.h	/^    LL_LORAWAN_PARAM_UPLINK_COUNTER,$/;"	e	enum:ll_lorawan_param_e
+LL_LORAWAN_PRIVATE	ll_ifc_consts.h	/^    LL_LORAWAN_PRIVATE = 1$/;"	e	enum:ll_lorawan_network_type_e
+LL_LORAWAN_PUBLIC	ll_ifc_consts.h	/^    LL_LORAWAN_PUBLIC = 0,$/;"	e	enum:ll_lorawan_network_type_e
+LL_LORAWAN_RECEIVE_ACK	ll_ifc_consts.h	/^    LL_LORAWAN_RECEIVE_ACK = (1 << 3),$/;"	e	enum:ll_lorawan_receive_flags_e
+LL_LORAWAN_RECEIVE_LINK_CHECK	ll_ifc_consts.h	/^    LL_LORAWAN_RECEIVE_LINK_CHECK = (1 << 0),$/;"	e	enum:ll_lorawan_receive_flags_e
+LL_LORAWAN_RECEIVE_MESSAGE	ll_ifc_consts.h	/^    LL_LORAWAN_RECEIVE_MESSAGE = (1 << 1),$/;"	e	enum:ll_lorawan_receive_flags_e
+LL_LORAWAN_RECEIVE_MESSAGE_MULTICAST	ll_ifc_consts.h	/^    LL_LORAWAN_RECEIVE_MESSAGE_MULTICAST = (1 << 2),$/;"	e	enum:ll_lorawan_receive_flags_e
+LL_LORAWAN_RSSI_FROM_PKT	ll_ifc_consts.h	/^#define LL_LORAWAN_RSSI_FROM_PKT(/;"	d
+LL_LORAWAN_RSSI_TO_PKT	ll_ifc_consts.h	/^#define LL_LORAWAN_RSSI_TO_PKT(/;"	d
+LL_LORAWAN_SEND_CONFIRMED	ll_ifc_consts.h	/^    LL_LORAWAN_SEND_CONFIRMED = 0x80,$/;"	e	enum:ll_lorawan_send_flags_e
+LL_LORAWAN_SEND_LINK_CHECK	ll_ifc_consts.h	/^    LL_LORAWAN_SEND_LINK_CHECK = 1,$/;"	e	enum:ll_lorawan_send_flags_e
+LL_RX_STATE_NO_MSG	ll_ifc_symphony.h	/^    LL_RX_STATE_NO_MSG = 0,$/;"	e	enum:ll_rx_state
+LL_RX_STATE_RECEIVED_MSG	ll_ifc_symphony.h	/^    LL_RX_STATE_RECEIVED_MSG = 1,$/;"	e	enum:ll_rx_state
+LL_STATE_ERROR	ll_ifc_symphony.h	/^    LL_STATE_ERROR = -1,$/;"	e	enum:ll_state
+LL_STATE_IDLE_CONNECTED	ll_ifc_symphony.h	/^    LL_STATE_IDLE_CONNECTED = 1,$/;"	e	enum:ll_state
+LL_STATE_IDLE_DISCONNECTED	ll_ifc_symphony.h	/^    LL_STATE_IDLE_DISCONNECTED = 2,$/;"	e	enum:ll_state
+LL_STATE_INITIALIZING	ll_ifc_symphony.h	/^    LL_STATE_INITIALIZING = 3,$/;"	e	enum:ll_state
+LL_TIMESTAMP_NO_OPERATION	ll_ifc_consts.h	/^    LL_TIMESTAMP_NO_OPERATION,$/;"	e	enum:ll_timestamp_operation_e
+LL_TIMESTAMP_SET_IMMEDIATE	ll_ifc_consts.h	/^    LL_TIMESTAMP_SET_IMMEDIATE,$/;"	e	enum:ll_timestamp_operation_e
+LL_TIMESTAMP_SYNC	ll_ifc_consts.h	/^    LL_TIMESTAMP_SYNC$/;"	e	enum:ll_timestamp_operation_e
+LL_TIMESTAMP_SYNC_IMMEDIATE	ll_ifc_consts.h	/^    LL_TIMESTAMP_SYNC_IMMEDIATE,$/;"	e	enum:ll_timestamp_operation_e
+LL_TX_STATE_ERROR	ll_ifc_symphony.h	/^    LL_TX_STATE_ERROR = -1,$/;"	e	enum:ll_tx_state
+LL_TX_STATE_SUCCESS	ll_ifc_symphony.h	/^    LL_TX_STATE_SUCCESS = 2,$/;"	e	enum:ll_tx_state
+LL_TX_STATE_TRANSMITTING	ll_ifc_symphony.h	/^    LL_TX_STATE_TRANSMITTING = 1,$/;"	e	enum:ll_tx_state
+LORAWAN	ll_ifc_consts.h	/^    LORAWAN,$/;"	e	enum:__anon4
+LORAWAN_HYBRID	ll_ifc_consts.h	/^    LORAWAN_HYBRID,$/;"	e	enum:__anon4
+LORA_NO_MAC	ll_ifc_consts.h	/^    LORA_NO_MAC = 0,$/;"	e	enum:__anon4
+MAC_INVALID	ll_ifc_consts.h	/^    MAC_INVALID = 255,$/;"	e	enum:__anon4
+MAILBOX	SymphonyLink.h	/^	MAILBOX	$/;"	e	enum:DownlinkMode
+MAX_ENSEMBLE_PAYLOAD_LENGTH	ll_ifc_ensemble.h	/^#define MAX_ENSEMBLE_PAYLOAD_LENGTH /;"	d
+MAX_ENSEMBLE_PROPERTY_LENGTH	ll_ifc_ensemble.h	/^#define MAX_ENSEMBLE_PROPERTY_LENGTH /;"	d
+MAX_ENSEMBLE_TRANSFER_SIZE	ll_ifc_ensemble.h	/^#define MAX_ENSEMBLE_TRANSFER_SIZE /;"	d
+MAX_RX_MSG_LEN	ll_ifc_consts.h	/^#define MAX_RX_MSG_LEN /;"	d
+MICROMODE_MAC	ll_ifc_consts.h	/^    MICROMODE_MAC,                  \/\/ small footprint Star topology non-persistent CSMA MAC$/;"	e	enum:__anon4
+MODULE_END_NODE	ll_ifc_consts.h	/^    MODULE_END_NODE = 1             \/\/ 0x01$/;"	e	enum:__anon8
+NET_INFO_BUFF_SIZE	ifc_struct_defs.h	/^#define NET_INFO_BUFF_SIZE /;"	d
+NULL	ll_ifc.c	/^#define NULL /;"	d	file:
+NUM_DOWNLINK_MODES	ll_ifc_consts.h	/^    NUM_DOWNLINK_MODES,$/;"	e	enum:__anon13
+NUM_MACS	ll_ifc_consts.h	/^    NUM_MACS,$/;"	e	enum:__anon4
+NbGateways	ll_ifc_lorawan.h	/^        uint8_t NbGateways;$/;"	m	struct:ll_lorawan_rx_s
+OFF	SymphonyLink.h	/^	OFF = 0,$/;"	e	enum:DownlinkMode
+ON	SymphonyLink.h	/^	ON ,$/;"	e	enum:DownlinkMode
+OPEN_NET_TOKEN	ll_ifc.c	/^const uint32_t OPEN_NET_TOKEN = 0x4f50454e;$/;"	v
+OP_ANTENNA_GET	ll_ifc_consts.h	/^    OP_ANTENNA_GET = 115,           \/\/ 0x73$/;"	e	enum:__anon2
+OP_ANTENNA_SET	ll_ifc_consts.h	/^    OP_ANTENNA_SET = 114,           \/\/ 0x72$/;"	e	enum:__anon2
+OP_APP_TOKEN_GET	ll_ifc_consts.h	/^    OP_APP_TOKEN_GET         = 125, \/\/ 0x7D$/;"	e	enum:__anon2
+OP_APP_TOKEN_REG_GET	ll_ifc_consts.h	/^    OP_APP_TOKEN_REG_GET     = 126, \/\/ 0x7E$/;"	e	enum:__anon2
+OP_APP_TOKEN_SET	ll_ifc_consts.h	/^    OP_APP_TOKEN_SET         = 124, \/\/ 0x7C$/;"	e	enum:__anon2
+OP_CRYPTO_KEY_XCHG_REQ	ll_ifc_consts.h	/^    OP_CRYPTO_KEY_XCHG_REQ   = 128, \/\/ 0x80$/;"	e	enum:__anon2
+OP_DEBUG_DUMP	ll_ifc_consts.h	/^    OP_DEBUG_DUMP            = 146,     \/\/ 0x92     \/\/ send (back) debug dump buffer from moduule to Host - TO BE DEPRECATED$/;"	e	enum:__anon2
+OP_DELETE_SETTINGS	ll_ifc_consts.h	/^    OP_DELETE_SETTINGS = 52,        \/\/ 0x34$/;"	e	enum:__anon2
+OP_DL_BAND_CFG_GET	ll_ifc_consts.h	/^    OP_DL_BAND_CFG_GET       = 122, \/\/ 0x7A$/;"	e	enum:__anon2
+OP_DL_BAND_CFG_SET	ll_ifc_consts.h	/^    OP_DL_BAND_CFG_SET       = 123, \/\/ 0x7B$/;"	e	enum:__anon2
+OP_FIRMWARE_TYPE	ll_ifc_consts.h	/^    OP_FIRMWARE_TYPE = 255          \/\/ 0xFF$/;"	e	enum:__anon2
+OP_FREQUENCY	ll_ifc_consts.h	/^    OP_FREQUENCY = 6,               \/\/ 0x06$/;"	e	enum:__anon2
+OP_GET_MAIL_FROM_GW	ll_ifc_consts.h	/^    OP_GET_MAIL_FROM_GW      = 150,     \/\/ 0x96     \/\/ Get mail back (if rx'ed) from GW$/;"	e	enum:__anon2
+OP_GET_RADIO_PARAMS	ll_ifc_consts.h	/^    OP_GET_RADIO_PARAMS = 9,        \/\/ 0x09$/;"	e	enum:__anon2
+OP_HARDWARE_TYPE	ll_ifc_consts.h	/^    OP_HARDWARE_TYPE = 254,         \/\/ 0xFE$/;"	e	enum:__anon2
+OP_IFC_VERSION	ll_ifc_consts.h	/^    OP_IFC_VERSION = 1,             \/\/ 0x01$/;"	e	enum:__anon2
+OP_IRQ_FLAGS	ll_ifc_consts.h	/^    OP_IRQ_FLAGS = 15,              \/\/ 0x0F$/;"	e	enum:__anon2
+OP_IRQ_FLAGS_MASK	ll_ifc_consts.h	/^    OP_IRQ_FLAGS_MASK = 16,         \/\/ 0x10$/;"	e	enum:__anon2
+OP_LORAWAN_ACTIVATE	ll_ifc_consts.h	/^    OP_LORAWAN_ACTIVATE         = 133, \/\/ 0x85$/;"	e	enum:__anon2
+OP_LORAWAN_MSG_RECEIVE	ll_ifc_consts.h	/^    OP_LORAWAN_MSG_RECEIVE      = 136, \/\/ 0x88$/;"	e	enum:__anon2
+OP_LORAWAN_MSG_SEND	ll_ifc_consts.h	/^    OP_LORAWAN_MSG_SEND         = 135, \/\/ 0x87$/;"	e	enum:__anon2
+OP_LORAWAN_PARAM	ll_ifc_consts.h	/^    OP_LORAWAN_PARAM            = 134, \/\/ 0x86$/;"	e	enum:__anon2
+OP_MAC_MODE_GET	ll_ifc_consts.h	/^    OP_MAC_MODE_GET = 71,           \/\/ 0x47$/;"	e	enum:__anon2
+OP_MAC_MODE_SET	ll_ifc_consts.h	/^    OP_MAC_MODE_SET = 70,           \/\/ 0x46$/;"	e	enum:__anon2
+OP_MAILBOX_REQUEST	ll_ifc_consts.h	/^    OP_MAILBOX_REQUEST       = 129, \/\/ 0x81$/;"	e	enum:__anon2
+OP_MODULE_ID	ll_ifc_consts.h	/^    OP_MODULE_ID = 50,              \/\/ 0x32$/;"	e	enum:__anon2
+OP_MSG_RECV_RSSI	ll_ifc_consts.h	/^    OP_MSG_RECV_RSSI = 41,          \/\/ 0x29$/;"	e	enum:__anon2
+OP_MSG_SEND_ACK	ll_ifc_consts.h	/^    OP_MSG_SEND_ACK = 90,           \/\/ 0x5A$/;"	e	enum:__anon2
+OP_MSG_SEND_UNACK	ll_ifc_consts.h	/^    OP_MSG_SEND_UNACK = 91,         \/\/ 0x5B$/;"	e	enum:__anon2
+OP_NET_INFO_GET	ll_ifc_consts.h	/^    OP_NET_INFO_GET= 118,           \/\/ 0x76$/;"	e	enum:__anon2
+OP_NET_TOKEN_GET	ll_ifc_consts.h	/^    OP_NET_TOKEN_GET  = 117,        \/\/ 0x75$/;"	e	enum:__anon2
+OP_NET_TOKEN_SET	ll_ifc_consts.h	/^    OP_NET_TOKEN_SET  = 116,        \/\/ 0x74$/;"	e	enum:__anon2
+OP_PKT_ECHO	ll_ifc_consts.h	/^    OP_PKT_ECHO = 31,               \/\/ 0x1F$/;"	e	enum:__anon2
+OP_PKT_RECV	ll_ifc_consts.h	/^    OP_PKT_RECV = 40,               \/\/ 0x28$/;"	e	enum:__anon2
+OP_PKT_RECV_CONT	ll_ifc_consts.h	/^    OP_PKT_RECV_CONT = 42,          \/\/ 0x2A$/;"	e	enum:__anon2
+OP_PKT_SEND_QUEUE	ll_ifc_consts.h	/^    OP_PKT_SEND_QUEUE = 11,         \/\/ 0x0B$/;"	e	enum:__anon2
+OP_QOS_GET	ll_ifc_consts.h	/^    OP_QOS_GET     = 113,           \/\/ 0x71$/;"	e	enum:__anon2
+OP_QOS_REQUEST	ll_ifc_consts.h	/^    OP_QOS_REQUEST = 112,           \/\/ 0x70$/;"	e	enum:__anon2
+OP_RESET_MCU	ll_ifc_consts.h	/^    OP_RESET_MCU = 60,              \/\/ 0x3C$/;"	e	enum:__anon2
+OP_RESET_SETTINGS	ll_ifc_consts.h	/^    OP_RESET_SETTINGS = 8,          \/\/ 0x08$/;"	e	enum:__anon2
+OP_RSSI_GET	ll_ifc_consts.h	/^    OP_RSSI_GET    = 121,           \/\/ 0x79$/;"	e	enum:__anon2
+OP_RSSI_SET	ll_ifc_consts.h	/^    OP_RSSI_SET    = 120,           \/\/ 0x78$/;"	e	enum:__anon2
+OP_RX_MODE_GET	ll_ifc_consts.h	/^    OP_RX_MODE_GET = 111,           \/\/ 0x6F$/;"	e	enum:__anon2
+OP_RX_MODE_SET	ll_ifc_consts.h	/^    OP_RX_MODE_SET = 110,           \/\/ 0x6E$/;"	e	enum:__anon2
+OP_RX_STATE	ll_ifc_consts.h	/^    OP_RX_STATE = 4,                \/\/ 0x04$/;"	e	enum:__anon2
+OP_SEND_MAIL_TO_EP	ll_ifc_consts.h	/^    OP_SEND_MAIL_TO_EP       = 149,     \/\/ 0x95     \/\/ Send\/enqueue msg for GW to send mail to EP$/;"	e	enum:__anon2
+OP_SEND_MSG_TO_GW	ll_ifc_consts.h	/^    OP_SEND_MSG_TO_GW        = 145,     \/\/ 0x91     \/\/ Send\/enqueue msg for endpoint to send to GW$/;"	e	enum:__anon2
+OP_SET_RADIO_PARAMS	ll_ifc_consts.h	/^    OP_SET_RADIO_PARAMS = 10,       \/\/ 0x0A$/;"	e	enum:__anon2
+OP_SLEEP	ll_ifc_consts.h	/^    OP_SLEEP = 20,                  \/\/ 0x14$/;"	e	enum:__anon2
+OP_SLEEP_BLOCK	ll_ifc_consts.h	/^    OP_SLEEP_BLOCK = 21,            \/\/ 0x15$/;"	e	enum:__anon2
+OP_STATE	ll_ifc_consts.h	/^    OP_STATE = 2,                   \/\/ 0x02$/;"	e	enum:__anon2
+OP_STATS_GET	ll_ifc_consts.h	/^    OP_STATS_GET   = 119,           \/\/ 0x77$/;"	e	enum:__anon2
+OP_STORE_SETTINGS	ll_ifc_consts.h	/^    OP_STORE_SETTINGS = 51,         \/\/ 0x33$/;"	e	enum:__anon2
+OP_SYNC_WORD_GET	ll_ifc_consts.h	/^    OP_SYNC_WORD_GET = 14,          \/\/ 0x0E$/;"	e	enum:__anon2
+OP_SYNC_WORD_SET	ll_ifc_consts.h	/^    OP_SYNC_WORD_SET = 13,          \/\/ 0x0D$/;"	e	enum:__anon2
+OP_SYSTEM_TIME_GET	ll_ifc_consts.h	/^    OP_SYSTEM_TIME_GET = 108,       \/\/ 0x6C$/;"	e	enum:__anon2
+OP_SYSTEM_TIME_SYNC	ll_ifc_consts.h	/^    OP_SYSTEM_TIME_SYNC = 109,      \/\/ 0x6D$/;"	e	enum:__anon2
+OP_TRIGGER_BOOTLOADER	ll_ifc_consts.h	/^    OP_TRIGGER_BOOTLOADER = 61,     \/\/ 0x3D$/;"	e	enum:__anon2
+OP_TX_CW	ll_ifc_consts.h	/^    OP_TX_CW = 98,                  \/\/ 0x61$/;"	e	enum:__anon2
+OP_TX_POWER_GET	ll_ifc_consts.h	/^    OP_TX_POWER_GET = 12,           \/\/ 0x0C$/;"	e	enum:__anon2
+OP_TX_POWER_SET	ll_ifc_consts.h	/^    OP_TX_POWER_SET = 7,            \/\/ 0x07$/;"	e	enum:__anon2
+OP_TX_STATE	ll_ifc_consts.h	/^    OP_TX_STATE = 3,                \/\/ 0x03$/;"	e	enum:__anon2
+OP_UMODE_GET_MSG_CNT_REQ	ll_ifc_consts.h	/^    OP_UMODE_GET_MSG_CNT_REQ = 141,     \/\/ 0x8D		\/\/ Micromode get msg count$/;"	e	enum:__anon2
+OP_UMODE_GET_NEXT_MSG_REQ	ll_ifc_consts.h	/^    OP_UMODE_GET_NEXT_MSG_REQ = 142,    \/\/ 0x8E		\/\/ Micromode get next msg$/;"	e	enum:__anon2
+OP_UMODE_GET_TIME_REQ	ll_ifc_consts.h	/^    OP_UMODE_GET_TIME_REQ    = 144,     \/\/ 0x90		\/\/ Micromode get time (UTC)$/;"	e	enum:__anon2
+OP_UMODE_LOST_MSG_REQ	ll_ifc_consts.h	/^    OP_UMODE_LOST_MSG_REQ    = 148,     \/\/ 0x94		\/\/ Micromode get\/set lost message count$/;"	e	enum:__anon2
+OP_UMODE_PROP_GET_REQ	ll_ifc_consts.h	/^    OP_UMODE_PROP_GET_REQ    = 140,     \/\/ 0x8C		\/\/ Micromode property get $/;"	e	enum:__anon2
+OP_UMODE_PROP_SET_REQ	ll_ifc_consts.h	/^    OP_UMODE_PROP_SET_REQ    = 147,     \/\/ 0x93		\/\/ Micromode property set$/;"	e	enum:__anon2
+OP_UMODE_SET_TIME_REQ	ll_ifc_consts.h	/^    OP_UMODE_SET_TIME_REQ    = 143,     \/\/ 0x8F		\/\/ Micromode set time (UTC)$/;"	e	enum:__anon2
+OP_VERSION	ll_ifc_consts.h	/^    OP_VERSION = 0,                 \/\/ 0x00$/;"	e	enum:__anon2
+PACKED	ifc_struct_defs.h	/^        #define PACKED$/;"	d
+PACKED	ifc_struct_defs.h	/^    #define PACKED /;"	d
+PROPERTY_LORA_BW_125	ll_ifc_consts.h	/^    PROPERTY_LORA_BW_125    = 1,    \/\/ 125KHz BW$/;"	e	enum:__anon9
+PROPERTY_LORA_BW_250	ll_ifc_consts.h	/^    PROPERTY_LORA_BW_250    = 2,    \/\/ 250KHz BW$/;"	e	enum:__anon9
+PROPERTY_LORA_BW_500	ll_ifc_consts.h	/^    PROPERTY_LORA_BW_500    = 3,    \/\/ 500KHz BW$/;"	e	enum:__anon9
+PROPERTY_LORA_BW_62_5	ll_ifc_consts.h	/^    PROPERTY_LORA_BW_62_5   = 0,    \/\/ 62.5KHz BW$/;"	e	enum:__anon9
+PROPERTY_LORA_BW_MAX	ll_ifc_consts.h	/^    PROPERTY_LORA_BW_MAX,           \/\/ range limit value (upper)$/;"	e	enum:__anon9
+PROPERTY_LORA_BW_MIN	ll_ifc_consts.h	/^    PROPERTY_LORA_BW_MIN    = 0,    \/\/ range limit value (lower)$/;"	e	enum:__anon9
+PROPERTY_LORA_CR_4_5	ll_ifc_consts.h	/^    PROPERTY_LORA_CR_4_5    = 1,    \/\/ $/;"	e	enum:__anon11
+PROPERTY_LORA_CR_4_6	ll_ifc_consts.h	/^    PROPERTY_LORA_CR_4_6    = 2,    \/\/ $/;"	e	enum:__anon11
+PROPERTY_LORA_CR_4_7	ll_ifc_consts.h	/^    PROPERTY_LORA_CR_4_7    = 3,    \/\/ $/;"	e	enum:__anon11
+PROPERTY_LORA_CR_4_8	ll_ifc_consts.h	/^    PROPERTY_LORA_CR_4_8    = 4,    \/\/ $/;"	e	enum:__anon11
+PROPERTY_LORA_CR_MAX	ll_ifc_consts.h	/^    PROPERTY_LORA_CR_MAX,           \/\/ range limit value (upper)$/;"	e	enum:__anon11
+PROPERTY_LORA_CR_MIN	ll_ifc_consts.h	/^    PROPERTY_LORA_CR_MIN    = 1,    \/\/ range limit value (lower)$/;"	e	enum:__anon11
+PROPERTY_LORA_SF_10	ll_ifc_consts.h	/^    PROPERTY_LORA_SF_10     = 10,   \/\/ SF 10$/;"	e	enum:__anon10
+PROPERTY_LORA_SF_11	ll_ifc_consts.h	/^    PROPERTY_LORA_SF_11     = 11,   \/\/ SF 11$/;"	e	enum:__anon10
+PROPERTY_LORA_SF_12	ll_ifc_consts.h	/^    PROPERTY_LORA_SF_12     = 12,   \/\/ SF 12$/;"	e	enum:__anon10
+PROPERTY_LORA_SF_6	ll_ifc_consts.h	/^    PROPERTY_LORA_SF_6      = 6,    \/\/ SF 6$/;"	e	enum:__anon10
+PROPERTY_LORA_SF_7	ll_ifc_consts.h	/^    PROPERTY_LORA_SF_7      = 7,    \/\/ SF 7$/;"	e	enum:__anon10
+PROPERTY_LORA_SF_8	ll_ifc_consts.h	/^    PROPERTY_LORA_SF_8      = 8,    \/\/ SF 8$/;"	e	enum:__anon10
+PROPERTY_LORA_SF_9	ll_ifc_consts.h	/^    PROPERTY_LORA_SF_9      = 9,    \/\/ SF 9$/;"	e	enum:__anon10
+PROPERTY_LORA_SF_MAX	ll_ifc_consts.h	/^    PROPERTY_LORA_SF_MAX,           \/\/ range limit value (upper)$/;"	e	enum:__anon10
+PROPERTY_LORA_SF_MIN	ll_ifc_consts.h	/^    PROPERTY_LORA_SF_MIN    = 6,    \/\/ range limit value (lower)$/;"	e	enum:__anon10
+RADIO_PARAM_FLAGS_BW	ll_ifc_consts.h	/^#define RADIO_PARAM_FLAGS_BW /;"	d
+RADIO_PARAM_FLAGS_CR	ll_ifc_consts.h	/^#define RADIO_PARAM_FLAGS_CR /;"	d
+RADIO_PARAM_FLAGS_CRC	ll_ifc_consts.h	/^#define RADIO_PARAM_FLAGS_CRC /;"	d
+RADIO_PARAM_FLAGS_FREQ	ll_ifc_consts.h	/^#define RADIO_PARAM_FLAGS_FREQ /;"	d
+RADIO_PARAM_FLAGS_HEADER	ll_ifc_consts.h	/^#define RADIO_PARAM_FLAGS_HEADER /;"	d
+RADIO_PARAM_FLAGS_IQ	ll_ifc_consts.h	/^#define RADIO_PARAM_FLAGS_IQ /;"	d
+RADIO_PARAM_FLAGS_PREAMBLE	ll_ifc_consts.h	/^#define RADIO_PARAM_FLAGS_PREAMBLE /;"	d
+RADIO_PARAM_FLAGS_SF	ll_ifc_consts.h	/^#define RADIO_PARAM_FLAGS_SF /;"	d
+READ_TO_SEND	SymphonyLink.h	/^	READ_TO_SEND,$/;"	e	enum:modemState
+RESP_HEADER_LEN	ll_ifc.c	/^#define RESP_HEADER_LEN /;"	d	file:
+RxPort	ll_ifc_lorawan.h	/^        uint8_t RxPort;$/;"	m	struct:ll_lorawan_rx_s
+RxRssi	ll_ifc_lorawan.h	/^        int16_t RxRssi;$/;"	m	struct:ll_lorawan_rx_s
+RxSnr	ll_ifc_lorawan.h	/^        uint8_t RxSnr;$/;"	m	struct:ll_lorawan_rx_s
+SENDING_FRAME	SymphonyLink.h	/^    SENDING_FRAME$/;"	e	enum:modemState
+SP_HEADER_SIZE	ll_ifc.c	/^    #define SP_HEADER_SIZE /;"	d	file:
+SP_NUM_ZEROS	ll_ifc.c	/^    #define SP_NUM_ZEROS /;"	d	file:
+STATS_SIZE	ifc_struct_defs.h	/^#define STATS_SIZE /;"	d
+SYMPHONYLINK_H	SymphonyLink.h	/^#define SYMPHONYLINK_H$/;"	d
+SYMPHONY_LINK	ll_ifc_consts.h	/^    SYMPHONY_LINK,$/;"	e	enum:__anon4
+SymphonyLink	SymphonyLink.cpp	/^SymphonyLink::SymphonyLink()$/;"	f	class:SymphonyLink
+SymphonyLink	SymphonyLink.h	/^class SymphonyLink {$/;"	c
+TIME_INFO_SIZE	ifc_struct_defs.h	/^#define TIME_INFO_SIZE /;"	d
+TRACE	SymphonyLink.h	/^	TRACE = 2$/;"	e	enum:AntennaMode
+TxAckReceived	ll_ifc_lorawan.h	/^        uint8_t TxAckReceived;$/;"	m	struct:ll_lorawan_rx_s
+TxNbRetries	ll_ifc_lorawan.h	/^        uint8_t TxNbRetries;$/;"	m	struct:ll_lorawan_rx_s
+UFL	SymphonyLink.h	/^	UFL = 1,$/;"	e	enum:AntennaMode
+UNAVAILABLE	ll_ifc_consts.h	/^    UNAVAILABLE    = 0,             \/\/ 0x00$/;"	e	enum:__anon6
+VERSION_LEN	ll_ifc_consts.h	/^#define VERSION_LEN /;"	d
+_IRQ	SymphonyLink.h	/^		uint32_t _IRQ;$/;"	m	class:SymphonyLink
+__IFC_STRUCT_DEFS_H_	ifc_struct_defs.h	/^#define __IFC_STRUCT_DEFS_H_$/;"	d
+__LL_IFC_CONSTS_H	ll_ifc_consts.h	/^#define __LL_IFC_CONSTS_H$/;"	d
+__LL_IFC_ENSEMBLE_H	ll_ifc_ensemble.h	/^#define __LL_IFC_ENSEMBLE_H$/;"	d
+__LL_IFC_H	ll_ifc.h	/^#define __LL_IFC_H$/;"	d
+__LL_IFC_LORAWAN_H	ll_ifc_lorawan.h	/^#define __LL_IFC_LORAWAN_H$/;"	d
+__LL_IFC_NO_MAC_H	ll_ifc_no_mac.h	/^#define __LL_IFC_NO_MAC_H$/;"	d
+__LL_IFC_PRIVATE_H	ll_ifc_private.h	/^#define __LL_IFC_PRIVATE_H$/;"	d
+__LL_IFC_SYMPHONY_H	ll_ifc_symphony.h	/^#define __LL_IFC_SYMPHONY_H$/;"	d
+_app_token	SymphonyLink.h	/^		uint8_t _app_token[APP_TOKEN_LEN];$/;"	m	class:SymphonyLink
+_downlink_mode	SymphonyLink.h	/^		ll_downlink_mode _downlink_mode;$/;"	m	class:SymphonyLink
+_modState	SymphonyLink.h	/^		ll_state _modState;$/;"	m	class:SymphonyLink
+_net_token	SymphonyLink.h	/^		uint32_t _net_token;$/;"	m	class:SymphonyLink
+_qos	SymphonyLink.h	/^		uint8_t _qos;$/;"	m	class:SymphonyLink
+_rxState	SymphonyLink.h	/^		ll_rx_state _rxState;$/;"	m	class:SymphonyLink
+_state	SymphonyLink.h	/^		modemState _state;$/;"	m	class:SymphonyLink
+_txState	SymphonyLink.h	/^		ll_tx_state _txState;$/;"	m	class:SymphonyLink
+band_edge_guard	ifc_struct_defs.h	/^    uint32_t band_edge_guard;$/;"	m	struct:llabs_dl_band_cfg
+band_edge_lower	ifc_struct_defs.h	/^    uint32_t band_edge_lower;$/;"	m	struct:llabs_dl_band_cfg
+band_edge_upper	ifc_struct_defs.h	/^    uint32_t band_edge_upper;$/;"	m	struct:llabs_dl_band_cfg
+begin	SymphonyLink.cpp	/^boolean SymphonyLink::begin(uint32_t net_token, uint8_t* app_token, DownlinkMode dl_mode, uint8_t qos)$/;"	f	class:SymphonyLink
+bytes_received	ll_ifc_lorawan.h	/^        uint8_t bytes_received;$/;"	m	struct:ll_lorawan_rx_s
+chan_step_offset	ifc_struct_defs.h	/^    uint8_t chan_step_offset;$/;"	m	struct:llabs_dl_band_cfg
+chan_step_size	ifc_struct_defs.h	/^    uint8_t chan_step_size;$/;"	m	struct:llabs_dl_band_cfg
+compute_checksum	ll_ifc.c	/^static uint16_t compute_checksum(uint8_t *hdr, uint16_t hdr_len, uint8_t *payload, uint16_t payload_len)$/;"	f	file:
+connection_status	ifc_struct_defs.h	/^    llabs_connect_status_t connection_status;$/;"	m	struct:llabs_network_info_t
+cpu_code	ll_ifc_consts.h	/^    uint16_t cpu_code;$/;"	m	struct:__anon12
+cpu_code_t	ll_ifc_consts.h	/^} cpu_code_t;$/;"	t	typeref:enum:__anon7
+curr	ifc_struct_defs.h	/^    llabs_time_t curr;$/;"	m	struct:llabs_time_info
+downlink_mode_t	ll_ifc_consts.h	/^} downlink_mode_t;$/;"	t	typeref:enum:__anon13
+ensemble_msg_characteristics_t	ll_ifc_ensemble.h	/^} ensemble_msg_characteristics_t;$/;"	t	typeref:enum:__anon16
+ensemble_msg_descriptor	ll_ifc_ensemble.h	/^typedef struct ensemble_msg_descriptor$/;"	s
+ensemble_msg_descriptor_t	ll_ifc_ensemble.h	/^} ensemble_msg_descriptor_t;$/;"	t	typeref:struct:ensemble_msg_descriptor
+ensemble_property_t	ll_ifc_ensemble.h	/^} ensemble_property_t;$/;"	t	typeref:enum:__anon15
+ensemble_role_t	ll_ifc_ensemble.h	/^} ensemble_role_t;$/;"	t	typeref:enum:__anon14
+flags	ll_ifc_lorawan.h	/^        uint8_t flags;$/;"	m	struct:ll_lorawan_rx_s
+frame_t	ll_ifc_consts.h	/^} frame_t;$/;"	t	typeref:enum:__anon3
+functionality_code	ll_ifc_consts.h	/^    uint16_t functionality_code;$/;"	m	struct:__anon12
+functionality_code_t	ll_ifc_consts.h	/^} functionality_code_t;$/;"	t	typeref:enum:__anon8
+gateway_channel	ifc_struct_defs.h	/^    int8_t gateway_channel;$/;"	m	struct:llabs_network_info_t
+gateway_frequency	ifc_struct_defs.h	/^    uint32_t gateway_frequency;$/;"	m	struct:llabs_network_info_t
+gateway_id	ifc_struct_defs.h	/^    uint64_t gateway_id;$/;"	m	struct:llabs_network_info_t
+getIRQ	SymphonyLink.cpp	/^boolean SymphonyLink::getIRQ(uint32_t flagsToClear)$/;"	f	class:SymphonyLink
+getState	SymphonyLink.cpp	/^boolean SymphonyLink::getState(void)$/;"	f	class:SymphonyLink
+hal_read_write	ll_ifc.c	/^int32_t hal_read_write(opcode_t op, uint8_t buf_in[], uint16_t in_len, uint8_t buf_out[], uint16_t out_len)$/;"	f
+hal_read_write_exact	ll_ifc.c	/^int32_t hal_read_write_exact(opcode_t op, uint8_t buf_in[], uint16_t in_len, uint8_t buf_out[], uint16_t out_len)$/;"	f
+is_scanning_gateways	ifc_struct_defs.h	/^    uint8_t is_scanning_gateways;$/;"	m	struct:llabs_network_info_t
+last_rx_tick	ifc_struct_defs.h	/^    uint32_t last_rx_tick;$/;"	m	struct:llabs_network_info_t
+last_sync	ifc_struct_defs.h	/^    llabs_time_t last_sync;$/;"	m	struct:llabs_time_info
+ll_antenna_get	ll_ifc.c	/^int32_t ll_antenna_get(uint8_t *ant)$/;"	f
+ll_antenna_set	ll_ifc.c	/^int32_t ll_antenna_set(uint8_t ant)$/;"	f
+ll_app_reg_get	ll_ifc_symphony.c	/^int32_t ll_app_reg_get(uint8_t *is_registered)$/;"	f
+ll_app_token_get	ll_ifc_symphony.c	/^static int32_t ll_app_token_get(uint8_t *app_token)$/;"	f	file:
+ll_app_token_set	ll_ifc_symphony.c	/^static int32_t ll_app_token_set(const uint8_t *app_token, uint8_t len)$/;"	f	file:
+ll_bandwidth_set	ll_ifc_no_mac.c	/^int32_t ll_bandwidth_set(uint8_t bandwidth)$/;"	f
+ll_bootloader_mode	ll_ifc.c	/^int32_t ll_bootloader_mode(void)$/;"	f
+ll_coding_rate_set	ll_ifc_no_mac.c	/^int32_t ll_coding_rate_set(uint8_t coding_rate)$/;"	f
+ll_config_get	ll_ifc_symphony.c	/^int32_t ll_config_get(uint32_t *net_token, uint8_t app_token[APP_TOKEN_LEN],$/;"	f
+ll_config_set	ll_ifc_symphony.c	/^int32_t ll_config_set(uint32_t net_token, const uint8_t app_token[APP_TOKEN_LEN],$/;"	f
+ll_crc_enabled_set	ll_ifc_no_mac.c	/^int32_t ll_crc_enabled_set(uint8_t enabled)$/;"	f
+ll_dl_band_cfg_deserialize	ifc_struct_defs.c	/^void ll_dl_band_cfg_deserialize(const uint8_t buff[DL_BAND_CFG_SIZE], llabs_dl_band_cfg_t *dl_cfg)$/;"	f
+ll_dl_band_cfg_get	ll_ifc_symphony.c	/^int32_t ll_dl_band_cfg_get(llabs_dl_band_cfg_t *p)$/;"	f
+ll_dl_band_cfg_serialize	ifc_struct_defs.c	/^uint16_t ll_dl_band_cfg_serialize(const llabs_dl_band_cfg_t *dl_cfg, uint8_t buff[DL_BAND_CFG_SIZE])$/;"	f
+ll_dl_band_cfg_set	ll_ifc_symphony.c	/^int32_t ll_dl_band_cfg_set(const llabs_dl_band_cfg_t *p)$/;"	f
+ll_downlink_mode	ll_ifc_symphony.h	/^enum ll_downlink_mode {$/;"	g
+ll_echo_mode	ll_ifc_no_mac.c	/^int32_t ll_echo_mode(void)$/;"	f
+ll_encryption_key_exchange_request	ll_ifc_symphony.c	/^int32_t ll_encryption_key_exchange_request(void)$/;"	f
+ll_ensemble_property_size	ll_ifc_ensemble.c	/^int32_t ll_ensemble_property_size( ensemble_property_t property_id )$/;"	f
+ll_firmware_type_get	ll_ifc.c	/^int32_t ll_firmware_type_get(ll_firmware_type_t *t)$/;"	f
+ll_firmware_type_t	ll_ifc_consts.h	/^} ll_firmware_type_t;$/;"	t	typeref:struct:__anon12
+ll_frequency_set	ll_ifc_no_mac.c	/^int32_t ll_frequency_set(uint32_t freq)$/;"	f
+ll_get_ensemble_config_property	ll_ifc_ensemble.c	/^int32_t ll_get_ensemble_config_property(ensemble_property_t propertyId, void* propertyValue)$/;"	f
+ll_get_ensemble_get_debuginfo	ll_ifc_ensemble.c	/^int32_t ll_get_ensemble_get_debuginfo(uint8_t* buffer, uint32_t bufferSize)$/;"	f
+ll_get_ensemble_get_mail_msg	ll_ifc_ensemble.c	/^int32_t ll_get_ensemble_get_mail_msg(uint8_t* buffer, uint32_t bufferSize)$/;"	f
+ll_get_ensemble_get_stored_msg	ll_ifc_ensemble.c	/^int32_t ll_get_ensemble_get_stored_msg(ensemble_msg_descriptor_t* msg_descriptor, uint8_t* buffer, uint32_t bufferSize)$/;"	f
+ll_get_ensemble_lost_msg_count	ll_ifc_ensemble.c	/^int32_t ll_get_ensemble_lost_msg_count(uint32_t* missed_message_count, uint8_t reset)$/;"	f
+ll_get_ensemble_stored_msg_count	ll_ifc_ensemble.c	/^int32_t ll_get_ensemble_stored_msg_count(uint32_t* message_count)$/;"	f
+ll_get_state	ll_ifc_symphony.c	/^int32_t ll_get_state(enum ll_state *state, enum ll_tx_state *tx_state, enum ll_rx_state *rx_state)$/;"	f
+ll_get_utc_time	ll_ifc_ensemble.c	/^int32_t ll_get_utc_time(uint64_t* utc_time)$/;"	f
+ll_hardware_type_get	ll_ifc.c	/^int32_t ll_hardware_type_get(ll_hardware_type_t *t)$/;"	f
+ll_hardware_type_string	ll_ifc.c	/^const char * ll_hardware_type_string(ll_hardware_type_t t)$/;"	f
+ll_hardware_type_t	ll_ifc_consts.h	/^} ll_hardware_type_t;$/;"	t	typeref:enum:__anon6
+ll_header_enabled_set	ll_ifc_no_mac.c	/^int32_t ll_header_enabled_set(uint8_t enabled)$/;"	f
+ll_ifc_error_codes_e	ll_ifc_consts.h	/^typedef enum ll_ifc_error_codes_e {$/;"	g
+ll_ifc_error_codes_t	ll_ifc_consts.h	/^} ll_ifc_error_codes_t;$/;"	t	typeref:enum:ll_ifc_error_codes_e
+ll_interface_version_get	ll_ifc.c	/^int32_t ll_interface_version_get(ll_version_t *version)$/;"	f
+ll_iq_inversion_set	ll_ifc_no_mac.c	/^int32_t ll_iq_inversion_set(uint8_t inverted)$/;"	f
+ll_irq_flags	ll_ifc.c	/^int32_t ll_irq_flags(uint32_t flags_to_clear, uint32_t *flags)$/;"	f
+ll_lorawan_activate_over_the_air	ll_ifc_lorawan.c	/^int32_t ll_lorawan_activate_over_the_air($/;"	f
+ll_lorawan_activate_personalization	ll_ifc_lorawan.c	/^int32_t ll_lorawan_activate_personalization($/;"	f
+ll_lorawan_activation_e	ll_ifc_consts.h	/^typedef enum ll_lorawan_activation_e {$/;"	g
+ll_lorawan_activation_status_e	ll_ifc_consts.h	/^typedef enum ll_lorawan_activation_status_e$/;"	g
+ll_lorawan_activation_status_t	ll_ifc_consts.h	/^} ll_lorawan_activation_status_t;$/;"	t	typeref:enum:ll_lorawan_activation_status_e
+ll_lorawan_activation_t	ll_ifc_consts.h	/^} ll_lorawan_activation_t;$/;"	t	typeref:enum:ll_lorawan_activation_e
+ll_lorawan_device_class_e	ll_ifc_consts.h	/^typedef enum ll_lorawan_device_class_e {$/;"	g
+ll_lorawan_device_class_t	ll_ifc_consts.h	/^} ll_lorawan_device_class_t;$/;"	t	typeref:enum:ll_lorawan_device_class_e
+ll_lorawan_network_type_e	ll_ifc_consts.h	/^typedef enum ll_lorawan_network_type_e {$/;"	g
+ll_lorawan_network_type_t	ll_ifc_consts.h	/^} ll_lorawan_network_type_t;$/;"	t	typeref:enum:ll_lorawan_network_type_e
+ll_lorawan_param_e	ll_ifc_consts.h	/^enum ll_lorawan_param_e {$/;"	g
+ll_lorawan_param_get_i32	ll_ifc_lorawan.c	/^int32_t ll_lorawan_param_get_i32(enum ll_lorawan_param_e param, int32_t * value)$/;"	f
+ll_lorawan_param_set_i32	ll_ifc_lorawan.c	/^int32_t ll_lorawan_param_set_i32(enum ll_lorawan_param_e param, int32_t value)$/;"	f
+ll_lorawan_receive	ll_ifc_lorawan.c	/^int32_t ll_lorawan_receive(uint8_t * buf, uint16_t len, ll_lorawan_rx_t * rx)$/;"	f
+ll_lorawan_receive_flags_e	ll_ifc_consts.h	/^typedef enum ll_lorawan_receive_flags_e {$/;"	g
+ll_lorawan_receive_flags_t	ll_ifc_consts.h	/^} ll_lorawan_receive_flags_t;$/;"	t	typeref:enum:ll_lorawan_receive_flags_e
+ll_lorawan_rx_s	ll_ifc_lorawan.h	/^    typedef struct ll_lorawan_rx_s {$/;"	s
+ll_lorawan_rx_t	ll_ifc_lorawan.h	/^    } ll_lorawan_rx_t;$/;"	t	typeref:struct:ll_lorawan_rx_s
+ll_lorawan_send_confirmed	ll_ifc_lorawan.c	/^int32_t ll_lorawan_send_confirmed($/;"	f
+ll_lorawan_send_flags_e	ll_ifc_consts.h	/^typedef enum ll_lorawan_send_flags_e {$/;"	g
+ll_lorawan_send_flags_t	ll_ifc_consts.h	/^} ll_lorawan_send_flags_t;$/;"	t	typeref:enum:ll_lorawan_send_flags_e
+ll_lorawan_send_internal	ll_ifc_lorawan.c	/^static int32_t ll_lorawan_send_internal($/;"	f	file:
+ll_lorawan_send_unconfirmed	ll_ifc_lorawan.c	/^int32_t ll_lorawan_send_unconfirmed($/;"	f
+ll_mac_mode_get	ll_ifc.c	/^int32_t ll_mac_mode_get(ll_mac_type_t *mac_mode)$/;"	f
+ll_mac_mode_set	ll_ifc.c	/^int32_t ll_mac_mode_set(ll_mac_type_t mac_mode)$/;"	f
+ll_mac_type_t	ll_ifc_consts.h	/^} ll_mac_type_t;$/;"	t	typeref:enum:__anon4
+ll_mailbox_request	ll_ifc_symphony.c	/^int32_t ll_mailbox_request(void)$/;"	f
+ll_message_send_ack	ll_ifc_symphony.c	/^int32_t ll_message_send_ack(uint8_t buf[], uint16_t len)$/;"	f
+ll_message_send_unack	ll_ifc_symphony.c	/^int32_t ll_message_send_unack(uint8_t buf[], uint16_t len)$/;"	f
+ll_net_info_deserialize	ifc_struct_defs.c	/^void ll_net_info_deserialize(const uint8_t buff[NET_INFO_BUFF_SIZE], llabs_network_info_t *net_info)$/;"	f
+ll_net_info_get	ll_ifc_symphony.c	/^int32_t ll_net_info_get(llabs_network_info_t *p_net_info)$/;"	f
+ll_net_info_serialize	ifc_struct_defs.c	/^uint16_t ll_net_info_serialize(const llabs_network_info_t *net_info, uint8_t buff[NET_INFO_BUFF_SIZE])$/;"	f
+ll_net_token_get	ll_ifc_symphony.c	/^static int32_t ll_net_token_get(uint32_t *p_net_token)$/;"	f	file:
+ll_net_token_set	ll_ifc_symphony.c	/^static int32_t ll_net_token_set(uint32_t net_token)$/;"	f	file:
+ll_packet_recv	ll_ifc_no_mac.c	/^int32_t ll_packet_recv(uint16_t num_timeout_symbols, uint8_t buf[], uint16_t len, uint8_t *bytes_received)$/;"	f
+ll_packet_recv_cont	ll_ifc_no_mac.c	/^int32_t ll_packet_recv_cont(uint8_t buf[], uint16_t len, uint8_t *bytes_received)$/;"	f
+ll_packet_recv_with_rssi	ll_ifc_no_mac.c	/^int32_t ll_packet_recv_with_rssi(uint16_t num_timeout_symbols, uint8_t buf[], uint16_t len, uint8_t *bytes_received)$/;"	f
+ll_packet_send	ll_ifc_no_mac.c	/^int32_t ll_packet_send(uint8_t buf[], uint16_t len)$/;"	f
+ll_packet_send_queue	ll_ifc_no_mac.c	/^int32_t ll_packet_send_queue(uint8_t buf[], uint16_t len)$/;"	f
+ll_preamble_syms_set	ll_ifc_no_mac.c	/^int32_t ll_preamble_syms_set(uint16_t num_syms)$/;"	f
+ll_qos_get	ll_ifc_symphony.c	/^static int32_t ll_qos_get(uint8_t *qos)$/;"	f	file:
+ll_qos_request	ll_ifc_symphony.c	/^static int32_t ll_qos_request(uint8_t qos)$/;"	f	file:
+ll_radio_params_get	ll_ifc_no_mac.c	/^int32_t ll_radio_params_get(uint8_t *sf, uint8_t *cr, uint8_t *bw, uint32_t *freq,$/;"	f
+ll_radio_params_set	ll_ifc_no_mac.c	/^int32_t ll_radio_params_set(uint8_t flags, uint8_t sf, uint8_t cr, uint8_t bw, uint32_t freq,$/;"	f
+ll_receive_mode_get	ll_ifc_symphony.c	/^static int32_t ll_receive_mode_get(uint8_t *rx_mode)$/;"	f	file:
+ll_receive_mode_set	ll_ifc_symphony.c	/^static int32_t ll_receive_mode_set(uint8_t rx_mode)$/;"	f	file:
+ll_reset_mcu	ll_ifc.c	/^int32_t ll_reset_mcu(void)$/;"	f
+ll_reset_state	ll_ifc.c	/^int32_t ll_reset_state( void )$/;"	f
+ll_restore_defaults	ll_ifc.c	/^int32_t ll_restore_defaults(void)$/;"	f
+ll_retrieve_message	ll_ifc_symphony.c	/^int32_t ll_retrieve_message(uint8_t *buf, uint8_t *size, int16_t *rssi, uint8_t *snr)$/;"	f
+ll_return_code_description	ll_ifc.c	/^char const * ll_return_code_description(int32_t return_code)$/;"	f
+ll_return_code_name	ll_ifc.c	/^char const * ll_return_code_name(int32_t return_code)$/;"	f
+ll_rssi_scan_get	ll_ifc_no_mac.c	/^int32_t ll_rssi_scan_get(uint8_t buf[], uint16_t len, uint8_t *bytes_received)$/;"	f
+ll_rssi_scan_set	ll_ifc_no_mac.c	/^int32_t ll_rssi_scan_set(uint32_t u1, uint32_t u2, uint32_t u3, uint32_t u4)$/;"	f
+ll_rx_state	ll_ifc_symphony.h	/^enum ll_rx_state {$/;"	g
+ll_send_mail_to_ep	ll_ifc_ensemble.c	/^int32_t ll_send_mail_to_ep(uint64_t* ep_mac_address, uint8_t* payload, uint8_t payload_size)$/;"	f
+ll_send_payload_to_gw	ll_ifc_ensemble.c	/^int32_t ll_send_payload_to_gw(uint8_t* payload, uint8_t payload_size)$/;"	f
+ll_set_ensemble_config_property	ll_ifc_ensemble.c	/^int32_t ll_set_ensemble_config_property(ensemble_property_t propertyId, void* propertyValue)$/;"	f
+ll_set_utc_time	ll_ifc_ensemble.c	/^int32_t ll_set_utc_time(uint64_t* utc_time)$/;"	f
+ll_settings_delete	ll_ifc.c	/^int32_t ll_settings_delete(void)$/;"	f
+ll_settings_store	ll_ifc.c	/^int32_t ll_settings_store(void)$/;"	f
+ll_sleep	ll_ifc.c	/^int32_t ll_sleep(void)$/;"	f
+ll_sleep_block	ll_ifc.c	/^int32_t ll_sleep_block(void)$/;"	f
+ll_sleep_unblock	ll_ifc.c	/^int32_t ll_sleep_unblock(void)$/;"	f
+ll_spreading_factor_set	ll_ifc_no_mac.c	/^int32_t ll_spreading_factor_set(uint8_t sf)$/;"	f
+ll_state	ll_ifc_symphony.h	/^enum ll_state {$/;"	g
+ll_stats_deserialize	ifc_struct_defs.c	/^void ll_stats_deserialize(const uint8_t buff[STATS_SIZE], llabs_stats_t *stats)$/;"	f
+ll_stats_get	ll_ifc_symphony.c	/^int32_t ll_stats_get(llabs_stats_t *s)$/;"	f
+ll_stats_serialize	ifc_struct_defs.c	/^uint16_t ll_stats_serialize(const llabs_stats_t *stats, uint8_t buff[STATS_SIZE])$/;"	f
+ll_sync_word_get	ll_ifc_no_mac.c	/^int32_t ll_sync_word_get(uint8_t *sync_word)$/;"	f
+ll_sync_word_set	ll_ifc_no_mac.c	/^int32_t ll_sync_word_set(uint8_t sync_word)$/;"	f
+ll_system_time_get	ll_ifc_symphony.c	/^int32_t ll_system_time_get(llabs_time_info_t *time_info)$/;"	f
+ll_system_time_sync	ll_ifc_symphony.c	/^int32_t ll_system_time_sync(uint8_t sync_mode)$/;"	f
+ll_time_deserialize	ifc_struct_defs.c	/^void ll_time_deserialize(const uint8_t buff[TIME_INFO_SIZE], llabs_time_info_t *time_info)$/;"	f
+ll_time_serialize	ifc_struct_defs.c	/^uint16_t ll_time_serialize(const llabs_time_info_t *time_info, uint8_t buff[TIME_INFO_SIZE])$/;"	f
+ll_timestamp_operation_e	ll_ifc_consts.h	/^typedef enum ll_timestamp_operation_e {$/;"	g
+ll_timestamp_operation_t	ll_ifc_consts.h	/^} ll_timestamp_operation_t;$/;"	t	typeref:enum:ll_timestamp_operation_e
+ll_transmit_cw	ll_ifc_no_mac.c	/^int32_t ll_transmit_cw(void)$/;"	f
+ll_tx_power_get	ll_ifc_no_mac.c	/^int32_t ll_tx_power_get(int8_t *pwr)$/;"	f
+ll_tx_power_set	ll_ifc_no_mac.c	/^int32_t ll_tx_power_set(int8_t pwr)$/;"	f
+ll_tx_state	ll_ifc_symphony.h	/^enum ll_tx_state {$/;"	g
+ll_unique_id_get	ll_ifc.c	/^int32_t ll_unique_id_get(uint64_t *unique_id)$/;"	f
+ll_version_get	ll_ifc.c	/^int32_t ll_version_get(ll_version_t *version)$/;"	f
+ll_version_t	ll_ifc_consts.h	/^} ll_version_t;$/;"	t	typeref:struct:__anon5
+llabs_connect_status_t	ifc_struct_defs.h	/^} llabs_connect_status_t;$/;"	t	typeref:enum:__anon1
+llabs_dl_band_cfg	ifc_struct_defs.h	/^typedef struct PACKED llabs_dl_band_cfg$/;"	s
+llabs_dl_band_cfg_t	ifc_struct_defs.h	/^} llabs_dl_band_cfg_t;$/;"	t	typeref:struct:llabs_dl_band_cfg
+llabs_network_info_t	ifc_struct_defs.h	/^typedef struct PACKED llabs_network_info_t$/;"	s
+llabs_network_info_t	ifc_struct_defs.h	/^} llabs_network_info_t;$/;"	t	typeref:struct:llabs_network_info_t
+llabs_stats	ifc_struct_defs.h	/^typedef struct llabs_stats$/;"	s
+llabs_stats_t	ifc_struct_defs.h	/^} llabs_stats_t;$/;"	t	typeref:struct:llabs_stats
+llabs_time	ifc_struct_defs.h	/^typedef struct PACKED llabs_time$/;"	s
+llabs_time_info	ifc_struct_defs.h	/^typedef struct PACKED llabs_time_info$/;"	s
+llabs_time_info_t	ifc_struct_defs.h	/^} llabs_time_info_t;$/;"	t	typeref:struct:llabs_time_info
+llabs_time_t	ifc_struct_defs.h	/^} llabs_time_t;$/;"	t	typeref:struct:llabs_time
+lorawan_activate	ll_ifc_lorawan.c	/^static int32_t lorawan_activate(uint8_t * msg, uint16_t msg_size)$/;"	f	file:
+lorawan_active_wait	ll_ifc_lorawan.c	/^static uint32_t lorawan_active_wait()$/;"	f	file:
+major	ll_ifc_consts.h	/^    uint8_t major;$/;"	m	struct:__anon5
+message_num	ll_ifc.c	/^static int32_t message_num = 0;$/;"	v	file:
+millis	ifc_struct_defs.h	/^    uint16_t millis;                    \/\/ number of milliseconds since time seconds since the epoch$/;"	m	struct:llabs_time
+minor	ll_ifc_consts.h	/^    uint8_t minor;$/;"	m	struct:__anon5
+modemState	SymphonyLink.h	/^typedef enum modemState$/;"	g
+msginfo	ll_ifc_ensemble.h	/^    uint16_t    msginfo;        \/\/ attributes\/characteristics of the msg$/;"	m	struct:ensemble_msg_descriptor
+mui	ll_ifc_ensemble.h	/^    uint64_t    mui;            \/\/ module unique ID (mac address of EP module that sent the msg)$/;"	m	struct:ensemble_msg_descriptor
+network_id_gw	ifc_struct_defs.h	/^    uint32_t network_id_gw;$/;"	m	struct:llabs_network_info_t
+network_id_node	ifc_struct_defs.h	/^    uint32_t network_id_node;$/;"	m	struct:llabs_network_info_t
+num_ack_failures	ifc_struct_defs.h	/^    uint32_t num_ack_failures;          \/\/ Number of failed acknowledgments$/;"	m	struct:llabs_stats
+num_ack_successes	ifc_struct_defs.h	/^    uint32_t num_ack_successes;         \/\/ Number of successful acknowledgments$/;"	m	struct:llabs_stats
+num_canceled_pkts_ack	ifc_struct_defs.h	/^    uint32_t num_canceled_pkts_ack;     \/\/ Number of times packet was canceled due to LLABS_ACK_FAIL_RETRIES$/;"	m	struct:llabs_stats
+num_canceled_pkts_csma	ifc_struct_defs.h	/^    uint32_t num_canceled_pkts_csma;    \/\/ Number of times packet was canceled due to LLABS_MAX_CSMA_COLLISIONS$/;"	m	struct:llabs_stats
+num_collisions	ifc_struct_defs.h	/^    uint32_t num_collisions;            \/\/ Number of CSMA collisions detected$/;"	m	struct:llabs_stats
+num_gateway_scans	ifc_struct_defs.h	/^    uint32_t num_gateway_scans;         \/\/ Number of gateway scans$/;"	m	struct:llabs_stats
+num_pkts_transmitted	ifc_struct_defs.h	/^    uint32_t num_pkts_transmitted;      \/\/ Number of packet transmissions (includes retries)$/;"	m	struct:llabs_stats
+num_rx_errors	ifc_struct_defs.h	/^    uint32_t num_rx_errors;             \/\/ Number of times we received a Rx error from the back end$/;"	m	struct:llabs_stats
+num_send_calls	ifc_struct_defs.h	/^    uint32_t num_send_calls;            \/\/ Number of times SendMessage has been called successfully$/;"	m	struct:llabs_stats
+num_sync_failures	ifc_struct_defs.h	/^    uint32_t num_sync_failures;         \/\/ Number of Sync failures$/;"	m	struct:llabs_stats
+opcode_t	ll_ifc_consts.h	/^} opcode_t;$/;"	t	typeref:enum:__anon2
+propertySizeTable	ll_ifc_ensemble.c	/^static  const uint16_t   propertySizeTable[ENSEMBLE_PROP_MAX] = $/;"	v	file:
+property_bw_t	ll_ifc_consts.h	/^} property_bw_t;$/;"	t	typeref:enum:__anon9
+property_cr_t	ll_ifc_consts.h	/^} property_cr_t;$/;"	t	typeref:enum:__anon11
+property_sf_t	ll_ifc_consts.h	/^} property_sf_t;$/;"	t	typeref:enum:__anon10
+read	SymphonyLink.cpp	/^boolean SymphonyLink::read(uint8_t* buf, uint8_t* len)$/;"	f	class:SymphonyLink
+read_uint16	ifc_struct_defs.c	/^uint16_t read_uint16(const uint8_t ** buffer) {$/;"	f
+read_uint32	ifc_struct_defs.c	/^uint32_t read_uint32(const uint8_t ** buffer) {$/;"	f
+read_uint64	ifc_struct_defs.c	/^uint64_t read_uint64(const uint8_t ** buffer) {$/;"	f
+read_uint8	ifc_struct_defs.c	/^uint8_t read_uint8(const uint8_t ** buffer) {$/;"	f
+recv_packet	ll_ifc.c	/^static int32_t recv_packet(opcode_t op, uint8_t message_num, uint8_t *buf, uint16_t len)$/;"	f	file:
+rssi	ifc_struct_defs.h	/^    int16_t rssi;$/;"	m	struct:llabs_network_info_t
+rssi	ll_ifc_ensemble.h	/^    int16_t     rssi;           \/\/ RSSI of the captured msg$/;"	m	struct:ensemble_msg_descriptor
+seconds	ifc_struct_defs.h	/^    uint32_t seconds;                   \/\/ Seconds since UNIX epoch 00:00:00 UTC on 1 January 1970$/;"	m	struct:llabs_time
+send_packet	ll_ifc.c	/^static void send_packet(opcode_t op, uint8_t message_num, uint8_t *buf, uint16_t len)$/;"	f	file:
+setAntenna	SymphonyLink.cpp	/^boolean SymphonyLink::setAntenna(AntennaMode ant)$/;"	f	class:SymphonyLink
+snr	ifc_struct_defs.h	/^    int8_t snr;$/;"	m	struct:llabs_network_info_t
+sync_mode	ifc_struct_defs.h	/^    uint8_t sync_mode;                  \/\/ 0: Time sync only when requested, 1: Time sync opportunistically$/;"	m	struct:llabs_time_info
+tag	ll_ifc_consts.h	/^    uint16_t tag;$/;"	m	struct:__anon5
+time	ll_ifc.h	/^    struct time$/;"	s
+transport_read	SymphonyLink.cpp	/^int32_t transport_read(uint8_t *buf, uint16_t len)$/;"	f
+transport_write	SymphonyLink.cpp	/^int32_t transport_write(uint8_t* buf, uint16_t len)$/;"	f
+tv_nsec	ll_ifc.h	/^        long tv_nsec;$/;"	m	struct:time
+tv_sec	ll_ifc.h	/^        long tv_sec;$/;"	m	struct:time
+updateModemState	SymphonyLink.cpp	/^modemState SymphonyLink::updateModemState(void)$/;"	f	class:SymphonyLink
+utc_time	ll_ifc_ensemble.h	/^    uint64_t    utc_time;       \/\/ timestamp of UTC time when msg was Rx'ed in Gateway$/;"	m	struct:ensemble_msg_descriptor
+write	SymphonyLink.cpp	/^boolean SymphonyLink::write(uint8_t* buf, uint16_t len)$/;"	f	class:SymphonyLink
+write_uint16	ifc_struct_defs.c	/^void write_uint16(uint16_t x, uint8_t ** buffer) {$/;"	f
+write_uint32	ifc_struct_defs.c	/^void write_uint32(uint32_t x, uint8_t ** buffer) {$/;"	f
+write_uint64	ifc_struct_defs.c	/^void write_uint64(uint64_t x, uint8_t ** buffer) {$/;"	f
+write_uint8	ifc_struct_defs.c	/^void write_uint8(uint8_t x, uint8_t ** buffer) {$/;"	f
